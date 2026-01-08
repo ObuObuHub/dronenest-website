@@ -24,8 +24,8 @@ const footerLinks = {
 }
 
 const socialLinks = [
-  { icon: Facebook, href: 'https://facebook.com/DRONENEST', label: 'Facebook' },
-  { icon: Instagram, href: 'https://instagram.com/DRONENEST', label: 'Instagram' },
+  { icon: Facebook, href: 'https://facebook.com/DRONEST', label: 'Facebook' },
+  { icon: Instagram, href: 'https://instagram.com/DRONEST', label: 'Instagram' },
 ]
 
 export default function Footer() {
@@ -48,9 +48,8 @@ export default function Footer() {
               </div>
               <div className="flex flex-col">
                 <span className="text-xl font-bold tracking-tight">
-                  <span className="text-white">Dr</span>
-                  <span className="text-primary-400">One</span>
-                  <span className="text-white">NEST</span>
+                  <span className="text-white">Dron</span>
+                  <span className="text-primary-400">est</span>
                 </span>
                 <span className="text-[10px] text-gray-500 tracking-[0.2em] uppercase">
                   Drone Profesionale
@@ -137,7 +136,7 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             {/* Copyright */}
             <p className="text-gray-500 text-sm">
-              © {new Date().getFullYear()} DrOneNEST. Toate drepturile rezervate.
+              © {new Date().getFullYear()} Dronest. Toate drepturile rezervate.
             </p>
 
             {/* Social Links */}

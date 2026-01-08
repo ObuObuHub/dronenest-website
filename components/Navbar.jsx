@@ -49,9 +49,8 @@ export default function Navbar() {
             </div>
             <div className="flex flex-col">
               <span className="text-xl font-bold tracking-tight">
-                <span className="text-white">Dr</span>
-                <span className="text-primary-400">One</span>
-                <span className="text-white">NEST</span>
+                <span className="text-white">Dron</span>
+                <span className="text-primary-400">est</span>
               </span>
               <span className="text-[10px] text-gray-500 tracking-[0.2em] uppercase">
                 Drone Profesionale

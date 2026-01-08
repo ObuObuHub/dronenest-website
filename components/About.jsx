@@ -69,7 +69,7 @@ export default function About() {
             </span>
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto text-lg">
-            DrOneNEST este lider în servicii profesionale de drone în România,
+            Dronest este lider în servicii profesionale de drone în România,
             oferind soluții inovatoare pentru industrie, construcții și situații de urgență.
           </p>
         </motion.div>
@@ -140,7 +140,7 @@ export default function About() {
             transition={{ duration: 0.6 }}
           >
             <h3 className="text-2xl font-bold text-white mb-6">
-              De Ce Să Alegi DrOneNEST?
+              De Ce Să Alegi Dronest?
             </h3>
             <p className="text-gray-400 mb-8 leading-relaxed">
               Suntem o echipă pasionată de tehnologie și aviație, dedicată să oferim
