@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { ChevronDown, Play, Shield, Award, Clock } from 'lucide-react'
+import { Play, Shield, Award, Clock } from 'lucide-react'
 
 const stats = [
   { icon: Shield, value: '100%', label: 'Siguranță' },
@@ -127,23 +127,6 @@ export default function Hero() {
           </motion.div>
         </div>
 
-        {/* Scroll Indicator */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1, delay: 1 }}
-          className="absolute bottom-8 left-1/2 -translate-x-1/2"
-        >
-          <motion.a
-            href="#services"
-            className="flex flex-col items-center text-gray-500 hover:text-primary-400 transition-colors"
-            animate={{ y: [0, 10, 0] }}
-            transition={{ duration: 2, repeat: Infinity }}
-          >
-            <span className="text-xs mb-2">Descoperă</span>
-            <ChevronDown className="w-5 h-5" />
-          </motion.a>
-        </motion.div>
       </div>
     </section>
   )
